@@ -1,0 +1,117 @@
+.products {
+  background: url("../images/main_bg.png") no-repeat center;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-item {
+  width: 686px;
+  height: 391px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  padding-top: 5%;
+}
+.features {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+.features-name {
+  color: #e1e1e1;
+  font-family: museo-sans, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0.48px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.features-description {
+  opacity: 0.54;
+  color: #e1e1e1;
+  font-family: museo-sans, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+}
+.features-btn button {
+  width: 184px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: #4c525a;
+  opacity: 0.26;
+  color: #e1e1e1;
+  font-family: museo-sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+}
+
+.select-qty .dropbtn,
+.select-size .dropbtn {
+  width: 69px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.26);
+  background-color: #111a28;
+  color: rgb(255, 255, 255, 0.26);
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4c525a;
+  min-width: 69px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #e1e1e1;
+  padding: 7px 7px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #4c525a;
+  border: 1px solid rgb(255, 255, 255, 0.26);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #4c525a;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #4c525a;
+  color: #ffffff;
+}
+.features-btn:hover button {
+  color: #ffffff;
+  border: #ffffff;
+}
+.radio {
+  padding-left: 20%;
+}
